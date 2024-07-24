@@ -1,4 +1,4 @@
-POST https://api-node-sscc.onrender.com
+POST http://localhost:3333/videos
 Content-type: application/json
 
 {
@@ -9,12 +9,12 @@ Content-type: application/json
 
 ###
 
-GET https://api-node-sscc.onrender.com
+GET http://localhost:3333/videos
 //Search é opcional e com a função em database-memory retorna apenas vídeos onde o título inclui a palavra pesquisada, isso é Query-parameters
 
 ###
 
-PUT https://api-node-sscc.onrender.com/a6827ecb-6ecd-4eb0-9a44-9e8068ed4ab2
+PUT http://localhost:3333/videos/a6827ecb-6ecd-4eb0-9a44-9e8068ed4ab2
 Content-type: application/json
 
 {
@@ -25,7 +25,7 @@ Content-type: application/json
 
 ###
 
-DELETE https://api-node-sscc.onrender.com/a6827ecb-6ecd-4eb0-9a44-9e8068ed4ab2
+DELETE http://localhost:3333/videos/a6827ecb-6ecd-4eb0-9a44-9e8068ed4ab2
 
 
 
