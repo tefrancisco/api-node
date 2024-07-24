@@ -1,0 +1,32 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+    "title": "Vídeo node",
+    "description": "Primeiro vídeo",
+    "duration": 100
+}
+
+###
+
+GET http://localhost:3333/videos
+//Search é opcional e com a função em database-memory retorna apenas vídeos onde o título inclui a palavra pesquisada, isso é Query-parameters
+
+###
+
+PUT http://localhost:3333/videos/a6827ecb-6ecd-4eb0-9a44-9e8068ed4ab2
+Content-type: application/json
+
+{
+    "title": "Vídeo 02",
+    "description": "Primeiro vídeo",
+    "duration": 100
+}
+
+###
+
+DELETE http://localhost:3333/videos/a6827ecb-6ecd-4eb0-9a44-9e8068ed4ab2
+
+
+
+
